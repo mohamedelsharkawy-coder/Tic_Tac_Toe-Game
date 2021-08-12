@@ -152,17 +152,17 @@ def the_game():
             system("cls")   
             # print the table with the old values and the new color
             for i in range(1,16):
-                            if i == 6 or i == 11:
-                                print("- - - - - - - - - - - - - - - - - - - - - - - -") 
-                                print("                |                |               ")
-                            elif i == 3:
-                                print("      ",nums[0],"         |        ",nums[1],"       |        ",nums[2],"       ",sep="")
-                            elif i == 8:
-                                print("      ",nums[3],"         |        ",nums[4],"       |        ",nums[5],"       ",sep="")
-                            elif i == 13:
-                                print("      ",nums[6],"         |        ",nums[7],"       |        ",nums[8],"       ",sep="")
-                            else:
-                                print("                |                |               ") 
+                if i == 6 or i == 11:
+                    print("- - - - - - - - - - - - - - - - - - - - - - - -") 
+                    print("                |                |               ")
+                elif i == 3:
+                    print("      ",nums[0],"         |        ",nums[1],"       |        ",nums[2],"       ",sep="")
+                elif i == 8:
+                    print("      ",nums[3],"         |        ",nums[4],"       |        ",nums[5],"       ",sep="")
+                elif i == 13:
+                    print("      ",nums[6],"         |        ",nums[7],"       |        ",nums[8],"       ",sep="")
+                else:
+                    print("                |                |               ") 
             print("\nWOW!, No one lose :)\nGame is tie.\n")
             # play_again option 
             expected_input = False
