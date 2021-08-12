@@ -1,6 +1,6 @@
 # To clear the window
 from os import system  
-# Method to explain the game to make the user understand how to play it.
+# Method explain the game to make the user understand how to play it.
 def explanation():
 # Make the general table of the game with numbers to make it easy for players's choices.
     for i in range(1,16):
