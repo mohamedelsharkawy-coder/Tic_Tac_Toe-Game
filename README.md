@@ -26,7 +26,7 @@ Tic-Tac-Toe is a classic two-player game played on a 3x3 grid. Players take turn
 
 ## Installation
 
-To run the Tic-Tac-Toe game, ensure you have Python installed on your machine. You can run the game by executing the following command:
+To run the Tic-Tac-Toe game, ensure you have Python installed on your machine. You also need to install the `colorama` module for colored output in the terminal. You can install it using pip:
 
 ```bash
-python tic_tac_toe.py
+pip install colorama
